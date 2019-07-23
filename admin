@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    
+
+</head>
+<body>
+    <img  alt="logo_devitapp" src="logo_devitapp.png" height="100" width="100" />
+        <h1>Most important heading here</h1>
+        <ul>
+                <li><a href="http://localhost/pelatihan_web/article">Artikel</a></li>
+                <li><a href="http://localhost/pelatihan_web/admin">Admin</a></li>
+            
+              </ul>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Contact</legend>
+        <p>
+            <label>Judul:</label>
+            <input type="text" name="judul" placeholder="judul kamu..." />
+        </p>
+        <p>
+            <label>Gambar:</label>
+            <input type="text" name="subject" placeholder="subject..." />
+        </p>
+        <p>
+                <input type="button" name="upload" value="Upload" />
+            </p>
+        <p>
+            <label>Kontent:</label>
+            <input type="text" name="kontent" placeholder="your email..." />
+        </p>
+        <p>
+                <input type="button" name="Save" value="Save" />
+            </p>
+
+       
+        </fieldset>
+    </form>
+    
+<table >
+        <tr>
+          <th>Judul</th>
+          <th>Gambar</th> 
+          <th>Kontent</th>
+          <th>Aksi</th>
+
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+      </table>
+</body>
+</html>
